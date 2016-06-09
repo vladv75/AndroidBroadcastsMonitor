@@ -1,7 +1,7 @@
 Android Broadcasts Monitor
 ===================================
 
-Samples demonstrating how to receive all standard Android broadcasts on your Android device. 
+Sample demonstrating how to receive all standard Android broadcasts on your Android device. 
 Created on the base example [ViliusKraujutis/AndroidBroadcastsMonitor](https://github.com/ViliusKraujutis/AndroidBroadcastsMonitor).
 
 ##Screenshots
