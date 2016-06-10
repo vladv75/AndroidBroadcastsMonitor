@@ -17,6 +17,10 @@ public class AnyBroadcastReceiver extends BroadcastReceiver implements IContext{
 
     IDisplay mainActivity;
 
+    public AnyBroadcastReceiver(IDisplay mainActivity) {
+        getContext(mainActivity);
+    }
+
     @Override
     public void onReceive(Context context, Intent pIntent) {
         Log.d(TAG, "Received Broadcast's intent is: " + pIntent.toString());
